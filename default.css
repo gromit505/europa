@@ -1,0 +1,128 @@
+body {
+	background: #3C2A27 url(gfx/back.gif);
+	color: #D0C7B8;
+}
+
+body, html, textarea {
+	scrollbar-arrow-color:  #D9D1C6;
+	scrollbar-face-color: #3C2A27;
+	scrollbar-highlight-color: #D9D1C6;
+	scrollbar-shadow-color: #D9D1C6;
+	scrollbar-3dlight-color: #230E37;
+	scrollbar-track-color: #3C2A27;
+	scrollbar-darkshadow-color: #230E37;
+}
+
+div, td, p, ul, ol, span {
+	font-family: Verdana;
+}
+
+div.head {
+	color: #B00000;
+	background-color: transparent;
+}
+
+td.main {
+	background: #D9D1C6 url(gfx/tile.gif);
+	color: #020100;
+	width: 660px;
+	vertical-align: top;
+}
+
+td.copy {
+	color: #963931;
+	background-color: transparent;
+}
+
+table.text {
+	width: 486px;
+	margin-left: 85px;
+	margin-right: 85px;
+}
+
+td.text, td.textc {
+	color: #020100;
+	background-color: transparent;
+}
+
+td.crleft, td.crright {
+	width: 265px;
+}
+
+td.newshead {
+	border: 1px solid #B00000;
+}
+
+p {
+	margin-left: 85px; 
+	margin-right: 85px;
+/*	font-weight: bold;*/
+}
+
+ol, ul {
+	margin-left: 115px; 
+	margin-right: 85px;
+/*	font-weight: bold;*/
+}
+
+p, ul, ol, td.crleft, td.crright {
+	color: #020100;
+	background-color: transparent;
+}
+
+p.title, p.ctitle, span.title {
+	color: #B00000;
+	background-color: transparent;
+}
+
+p.comment {
+	color: #020100;
+	background-color: transparent;
+}
+
+a {
+	color: #B00000; 
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B00000; 
+	background-color: transparent;
+}
+
+a.anav {
+	color: #020100;
+	background-color: transparent;
+}
+
+span.select, span.selecti {
+	color: #B00000; 
+	background-color: transparent;
+}
+
+.combo {
+	background-color: #D9D1C6; 
+	color: #020100;
+}
+
+p.imgtitle {
+	color: #D9D1C6;
+	background-color: transparent;
+}
+
+option.new {
+	color: #B00000;
+	background-color: transparent;
+}
+
+p.imgcopy {
+	color: #D9D1C6;
+	background-color: transparent;
+}
+
+span.red {
+	color: #B00000;
+	background-color: transparent;
+	font-size: 130%;
+}
